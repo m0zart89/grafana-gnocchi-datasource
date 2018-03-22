@@ -897,8 +897,9 @@ export class GnocchiDatasource {
             },
             "scope": {
               "project": {
-                "domain": { "id": this.domain },
-                "name": this.project,
+                //"domain": { "id": this.domain },
+                //"name": this.project,
+                "id": this.project
               }
             }
           }
